@@ -1,3 +1,5 @@
+
+
 let num = document.getElementById('fnum')
 let lista = document.getElementById('flista')
 let res = document.getElementById('res')
@@ -61,7 +63,7 @@ function finalizar(){
             
         }
         media = soma/tot
-        
+        //innetHTML - Exibir na tela
         res.innerHTML = ''
         res.innerHTML += `<p> Ao todo, temos ${tot} numeros cadastrados. </p>`
         res.innerHTML += `<p>O maior valor informado foi ${maior}.</P>`
